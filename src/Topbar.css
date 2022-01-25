@@ -1,0 +1,27 @@
+.Topbar-Div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Topbar-Nav {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Topbar-Link {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  text-decoration: none; /*remove underline*/
+  color: rgb(200, 200, 200);
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.Topbar-Link:hover {
+  border-bottom: 2px solid white;
+  color: white;
+}

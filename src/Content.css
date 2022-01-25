@@ -1,0 +1,22 @@
+.Content-Outer {
+  width: 100%;
+  flex: 1; /* makes Content-Outer div fill up the Home-Div */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Content-Inner {
+  font-size: 24px;
+  color: rgb(200, 200, 200);
+  padding-bottom: 200px;
+}
+
+.Content-Name {
+  font-size: 60px;
+}
+
+.Content-Name:hover {
+  /*color: aqua;*/
+  text-shadow: 8px 8px black;
+}
