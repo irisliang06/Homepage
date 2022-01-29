@@ -1,28 +1,28 @@
-.Topbar-Div {
+.Bottom-Div {
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.Topbar-Nav {
-  padding-top: 40px;
+.Bottombar-Nav {
+  padding-bottom: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.Topbar-Link {
+.Bottombar-Link {
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 10px;
   text-decoration: none; /*remove underline*/
   color: rgb(200, 200, 200);
   font-weight: 600;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 400;
   transition: color 1s;
 }
 
-.Topbar-Link:hover {
+.Bottombar-Link:hover {
   color: #64ffda;
 }
