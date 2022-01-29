@@ -8,9 +8,9 @@ function Topbar() {
         <Link to="/about" className="Topbar-Link">
           About
         </Link>
-        <Link to="/resume" className="Topbar-Link">
+        <a href="/Shiming Liang Resume.pdf" className="Topbar-Link">
           Resume
-        </Link>
+        </a>
         <Link to="/projects" className="Topbar-Link">
           Projects
         </Link>
