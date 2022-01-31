@@ -1,0 +1,4 @@
+#!/bin/bash
+git add .
+git commit -m "Added Something"
+git push -u origin main
