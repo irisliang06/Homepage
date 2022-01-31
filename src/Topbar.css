@@ -9,6 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .Topbar-Link {
@@ -21,6 +22,13 @@
   font-size: 14px;
   font-weight: 400;
   transition: color 1s;
+}
+
+@media only screen and (max-width: 600px) {
+  .Topbar-Link {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 .Topbar-Link:hover {
