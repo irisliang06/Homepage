@@ -5,6 +5,9 @@ function Topbar() {
   return (
     <div className="Topbar-Div">
       <nav className="Topbar-Nav">
+      <Link to="/" className="Topbar-Link">
+          Home
+        </Link>
         <Link to="/about" className="Topbar-Link">
           About
         </Link>
