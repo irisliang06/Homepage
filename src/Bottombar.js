@@ -1,5 +1,6 @@
 import "./Bottombar.css";
 import { FaGithub, FaLinkedin, Fa } from "react-icons/fa";
+import { AiOutlineMail } from 'react-icons/ai';
 
 function Bottombar() {
   return (
@@ -13,6 +14,9 @@ function Bottombar() {
           className="Bottombar-Link"
         >
           <FaLinkedin />
+        </a>
+        <a href="mailto:irisliang06@gmail.com" className="Bottombar-Link">
+          <AiOutlineMail/>
         </a>
       </nav>
     </div>

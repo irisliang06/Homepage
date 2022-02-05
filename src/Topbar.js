@@ -17,9 +17,6 @@ function Topbar() {
         <Link to="/projects" className="Topbar-Link">
           Projects
         </Link>
-        <a href="mailto:irisliang06@gmail.com" className="Topbar-Link">
-          Contact
-        </a>
       </nav>
     </div>
   );
